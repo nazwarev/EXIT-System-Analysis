@@ -79,7 +79,7 @@ Sebagai pengguna, saya ingin memperoleh informasi apabila login gagal agar dapat
 
 ## 3. User Flow Diagram
 
-
+![UF-02: User Authentication](uf2-user-authentication.png)
 
 ## 4. Output
 
