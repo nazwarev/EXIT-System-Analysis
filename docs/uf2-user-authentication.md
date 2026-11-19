@@ -90,12 +90,15 @@ Hasil dari proses User Authentication meliputi:
 - Sistem memberikan informasi ketika login gagal.
 - Pengguna dapat mengakhiri sesi melalui fitur logout.
 
-## 5. Catatan dan Asumsi
+## 5. Ketentuan Autentikasi
 
-- Registrasi dan login dapat diakses melalui integrasi dari Landing Page EXIT.
-- Password dan konfirmasi password merupakan tambahan rancangan untuk kebutuhan autentikasi.
-- Ketentuan minimal password 8 karakter merupakan usulan awal yang perlu disepakati tim.
-- Kanal pengiriman OTP (email atau nomor telepon) perlu ditentukan pada tahap perancangan teknis.
-- Prototype menggunakan data dummy dan proses autentikasi simulasi.
-- Pengelolaan sesi dan keamanan autentikasi perlu diperhatikan pada implementasi.
-
+1. Registrasi dapat diakses melalui Landing Page EXIT.
+2. Data registrasi meliputi nama lengkap, tanggal lahir, nomor telepon, email, dan password.
+3. OTP dikirimkan melalui nomor telepon yang didaftarkan pengguna.
+4. Password wajib memiliki minimal 8 karakter dan mengandung kombinasi huruf dan angka.
+5. Konfirmasi password harus sesuai dengan password yang dibuat.
+6. Login menggunakan email dan password.
+7. Apabila login gagal, sistem menampilkan pesan kesalahan agar pengguna dapat memperbaiki input.
+8. Setelah logout, sesi pengguna diakhiri dan pengguna diarahkan kembali ke halaman login.
+9. Prototype menggunakan data dummy dan proses autentikasi simulasi.
+10. Pengelolaan sesi, perlindungan password, dan keamanan OTP perlu diperhatikan dalam implementasi.
