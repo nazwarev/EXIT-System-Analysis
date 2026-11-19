@@ -50,6 +50,7 @@ Sebagai calon pengguna, saya ingin memperoleh jawaban atas pertanyaan umum agar 
 
 ## 3. User Flow Diagram
 
+![UF-01: Landing Page & Information](uf1-landing-page.png)
 
 ## 4. Output
 
